@@ -1,0 +1,148 @@
+
+:root {
+    
+    --primary-cool-blue: #4394aa;
+    --accent-teal: #358076;
+    --hover-bright-teal: #5593a0;
+    --text-dark: #000000;
+    --card-border: #b8c9cc;
+    --off-white-bg: #f4f6f5; 
+}
+
+
+
+
+body {
+    background-color: var(--off-white-bg); /* Uses var() & Off-white color */
+    color: var(--text-dark);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: var(--primary-cool-blue);
+    font-size: 125%; 
+    font-style: italic; 
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    color: #1e434c; 
+    border-bottom: 2px solid var(--accent-teal); 
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+
+h3 {
+    color: var(--primary-cool-blue);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+p {
+    margin-bottom: 15px;
+}
+
+
+header {
+    background-color: var(--primary-cool-blue);
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+footer {
+    background-color: #1a2e33;
+    color: #e0e8e9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+#main-content {
+    width: 90%; 
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 12px;
+}
+
+
+
+
+
+.card {
+    background-color: #eee1e1ce;
+    border: 1px solid var(--card-border); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.float-image {
+    float: right; 
+    margin-left: 20px;
+    margin-bottom: 15px;
+    max-width: 100%; 
+    border: 2px solid var(--primary-cool-blue);
+    height:auto;
+}
+
+.clear-fix {
+    clear: both; 
+}
+
+
+
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+
+
+a:link,
+a:visited {
+    color: var(--accent-teal);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+nav a:link,
+nav a:visited {
+    color: #00a5ce;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+a:hover,
+a:focus {
+    color: var(--hover-bright-teal);
+    background-color: #e0e6e7;
+    text-decoration: none;
+    outline: 2px solid var(--hover-bright-teal);
+}
+
+nav a:hover,
+nav a:focus {
+    color: #bce3eb;
+    background-color: transparent;
+    text-decoration: underline;
+    outline: none;
+}

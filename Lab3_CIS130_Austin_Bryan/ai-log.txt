@@ -1,0 +1,81 @@
+Google Gemini
+My first Prompt:
+I need a plan for constructing a website using HTML and CSS.
+I am a beginner CIS-130 Student in college. My topic is going to be about beginner backpacking in the Adirondacks, NY.
+I need an index.html file, a details.html file, a styles/ main.css file, and one image relating to my theme.
+ I want my main index.html file to have main information about backpacking, what you need for backpacking and all the details that entail with backpacking, camping, and hiking.
+ On my details.html page, I would like information on where you can buy gear, Where you can find maps, where you can find trails, and a link to a Adirondack 46er webpage.
+I do not want you to generate any code yet. I want a simple plan on what i can do to accomplish this including folders and files. Also recommend a different layout that you think  would look good.
+Remember no code yet. just a simple plan for each file,
+
+Revised Prompt
+Gemini gave me all the details and information I need to set up my page. 
+Now i need to generate the code for HTML.
+I made minor changes to where I wanted certain tags.
+
+Prompt for detail.html
+
+Now generate code for detail.html using semantic HTML only, no java script or other languages.
+ use the concept from index.html
+ I want links to different web pages and links where I can buy backapcking gear.
+a link that sends you bck to index.html 
+I want links to Adironack web pages to be at the bottom and I want the gear website links to be under where the site is mentioned. I want the home link at the bottom as well.
+ Feel free to add more than what is in index.html
+
+prompt for CSS
+Generate only styles/main.css for my two-page website. Use
+beginner-friendly CSS. Include type selectors, one class selector, one ID
+selector, one descendant selector, link pseudo-classes with matching hover and
+focus styles, a custom property in :root, var(), at least one %, one em, and
+one px measurement, a font stack with fallbacks, line-height, text-align, margins
+or padding, a visible border, float, and clear. Do not use CSS frameworks. Do
+not use JavaScript. Use teal colors and change the backround to an off white ish color. 
+
+
+
+Prompt Revise
+
+
+Generate only styles/main.css for my two-page website. Use
+beginner-friendly CSS. Include type selectors, one class selector, one ID
+selector, one descendant selector, link pseudo-classes with matching hover and
+focus styles, a custom property in :root, var(), at least one %, one em, and
+one px measurement, a font stack with fallbacks, line-height, text-align, margins
+or padding, a visible border, float, and clear. Do not use CSS frameworks. Do
+not use JavaScript. Use cool colors and change the backround to an off white ish color. use this ruberic A body type selector An h1 type selector
+An h2 type selector At least one additional type selector
+At least one class selector using a
+period
+At least one ID selector using #
+At least one descendant selector
+At least one pseudo-class
+Matching :hover and :focus
+At least one hexadecimal color
+At least one relative % measurement
+At least one em measurement
+At least one px measurement
+A font-family with fallback fonts
+A font-size property
+A font-weight or font-style property
+A line-height property
+A text-align property
+Margins and/or padding
+A visible border
+A float property
+A clear property
+At least one CSS custom property
+At least one use of var() 
+Make sure the HTML class and CSS
+class name match exactly.
+Please use a color scheme of Teals, and off whites.
+Include Symmeterical spacing and padding throughout.
+
+This made sure I got everything I wanted in my website without having to intricatley change a lot of small details and can mass change things like color and text.
+
+One debuging prompt
+
+Can you make sure that my Class,type and ID selectors are all correctly matching and that I am not missing a valuable tag?
+Most of my prompts were very CLEAR and only required minute fixing and customizing to make it my own.
+
+Ai made it very easy to generate code and I made this website much faster than if I typed it from scratch. If you do not give AI evrything you need and give it limitations, it will overwhelm you with unnecessary information.
+I had to make changes to tags, Specifically deleting the article and nav tags. The biggest weakness is its biggest strength of generating information.
